@@ -1,2 +1,2 @@
-# covid-tests-simulation
+# Covid Tests Simulation
 Monte Carlo simulations to calculate the number of COVID tests required per individual when using a pooled-testing procedure (5 tests at once)
