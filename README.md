@@ -13,12 +13,12 @@ One thing to note is that this method works because **diluted samples are still 
 To answer the questions above, what we really need to know is : **On average, how many tests does it take to test a single person conclusively ?**
 
 There are sources of randomness that might lead this number to be different each time: 
-1) Whether the patient of interest has COVID 
+1) **Whether the patient of interest has COVID** 
 - This depends on how much of the population is infected with COVID 
 - We’ll denote this variable s1; equal to 1 if the patient has COVID, and 0 otherwise
-2) Whether the other four patients being tested have COVID 
+2) **Whether the other four patients being tested have COVID**
 - We’ll denote these variables s2, s3, s4, s5; each variable will be 1 if the relevant patient has COVID, and 0 otherwise
-3) Whether the combined sample tests are positive or negative 
+3) **Whether the combined sample tests are positive or negative** 
 - This depends on the sensitivity and specificity of the test and on whether anyone in the sample is tested
 - We’ll denote this T, equal to 1 if the test is positive, and 0 otherwise
 
