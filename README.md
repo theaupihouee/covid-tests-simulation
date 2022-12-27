@@ -46,4 +46,4 @@ We run 1,000 simulations for each value of p (proportion infected) and p ranges 
 
 ![Graph Simulations](images/graph_simulations.jpg)
 
-**We can thus confirm that for a low proportion of population infected (<0.4), it is worth using grouped testing as the average test needed per person is inferior to 1. However, when the proportion goes above 0.4, the method is not efficient anymore and testing each person individually becomes necessary (or reducing the number persons in the pool)** 
+**We can thus confirm that for a low proportion of population infected (<0.4), it is worth using grouped testing as the average test needed per person is inferior to 1. However, when the proportion goes above 0.4, the method is not efficient anymore and testing each person individually becomes necessary (or reducing the number of people in the pool)** 
