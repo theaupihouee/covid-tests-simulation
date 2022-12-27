@@ -32,7 +32,7 @@ We set the following values :
 
 - The T variable depends on whether the sample had any COVID-positive samples :
 
-![T variable](images/t_var.jpg)
+![T variable](images/bernoulli_t_var.jpg)
 
 Based on the above, the outcome is : 
 - **If T=0, we don't need to carry out any further test** : the number of tests required for our person of interest is **0.2** 
