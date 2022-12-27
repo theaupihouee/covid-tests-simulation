@@ -38,7 +38,12 @@ Based on the above, the outcome is :
 - **If T=0, we don't need to carry out any further test** : the number of tests required for our person of interest is **0.2** 
 - **If T=1, we need to re-test every one of the five people in the sample** : number of tests per peson is **1.2**
 
-Let's conduct **Monte Carlo simulations** to take into account this randomness. 
+Let's conduct **Monte Carlo simulations** to take into account this randomness 
 
 ## Results 
 
+We run 1,000 simulations for each value of p (proportion infected) and p ranges from 0 to 100%. Everytime, we record the **average number of tests required** as well as the **standard deviation**. We then plot the following graph, showing the confidence interval for each value: 
+
+![Graph Simulations](images/graph_simulations.jpg)
+
+**We can thus confirm that for a low proportion of population infected (<0.4), it is worth using grouped testing as the average test needed per person is inferior to 1. However, when the proportion goes above 0.4, the method is not efficient anymore and testing each person individually becomes necessary (or reducing the number persons in the pool)** 
